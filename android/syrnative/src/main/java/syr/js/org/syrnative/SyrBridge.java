@@ -118,6 +118,7 @@ public class SyrBridge {
 
                 ///random comment
 
+                /* **
                 String screenDensity = Float.toString(mContext.getResources().getDisplayMetrics().density);
                 String loadURL = String.format(mBundle.getBundleUrl() + "?window_height=%s&window_width=%s&screen_density=%s&platform=android&platform_version=%s&exported_methods=%s&initial_props=%s",
                         bootParams.get("height"),
@@ -128,7 +129,9 @@ public class SyrBridge {
                         bootParams.get("initial_props"));
 
                 mBridgedBrowser.loadUrl(loadURL);
+                // */
 
+                mBridgedBrowser.loadUrl(mBundle.getBundleUrl());
             }
         });
     }
