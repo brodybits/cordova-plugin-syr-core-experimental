@@ -28,6 +28,10 @@ Do the following steps on <https://github.com/syrjs/core> before running the app
 
 Then run the app on Android emulator or iOS simulator.
 
+## Demo project
+
+Cordova demo project along with instructions at: <https://github.com/phonegap-native-demo/cordova-native-demo>
+
 ## Major issues
 
 * Use of extra dialog on Android breaks operation of back button
